@@ -30,3 +30,16 @@ dependencies {
 // Define the main class for the application
 mainClassName = 'App'
 
+defaultTasks 'start_build', 'build', 'deploy'
+
+task start_build {
+	doLast {
+		println '### begin build ###'	
+	}
+}
+
+task deploy {
+	doLast {
+		println '--- deploy ---'	
+	}
+}
