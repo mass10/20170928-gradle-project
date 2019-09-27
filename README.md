@@ -18,3 +18,8 @@ gradle test
 ```
 gradlew
 ```
+
+# gradle の無い環境に clone してきたとき
+
+`gradlew.bat` をオプションなしで動かしたら自動的にダウンロードして `~/.gradle` にダウンロードされ、ビルドされた
+
